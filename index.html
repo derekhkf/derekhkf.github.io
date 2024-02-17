@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ITEC4020 A1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+    <nav>
+      <div style="font-size: 2rem">Personal Homepage</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#education"></a>Education</a></li>
+        </ul>
+      </div>
+    </nav>
+    <hr class="dotted">
+    </div>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.jpg" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello! My name is</p>
+        <h1 class="title">Derek,</h1>
+        <p class="section__text__p2">I am a 4th Year IT Student @ York University</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/RESUME.pdf')"
+          >
+            Download Resume
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onClick="window.open('https://www.linkedin.com/in/derekahaukaufong/')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/derekhkf')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <hr class="solid">
+      <h1 class="title">About Me</h1>
+      <hr class="solid">
+          <div style="padding: 2rem;">
+            <p>
+              I am a highly driven individual with a passion for learning, with an avid interest in anything IT or tech related, e-commerce, marketing and the intricate world of entrepreneurship. 
+              Currently, I am completing my Bachelor of Commerce in Information Technology with Specialized Honours in E-Commerce Development. 
+              I can be a valuable addition to any team as I strongly believe in collaboration and teamwork. I thrive in environments where I can collaborate with others whether as a team member or as the team leader. 
+              I am always willing to help and grow together towards a shared objective.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <hr class="solid">
+      <h1 class="title">Experience</h1>
+      <hr class="solid">
+      <div class="experience-text-container">
+        <div> 
+        <p class="job-title"><b>Equitable Bank | 4 Months</b><br>
+          <i>August 2023 – December 2023</i><br>
+          351 King St East, Toronto, ON 
+        </p>
+          <ul class="job-desc">
+            <li>Experience with ServiceNow as the main ticketing system of the company, resolved employees' technical issues.</li>
+            <li>Improved my communication skills by networking with a wide array of teams and colleagues.</li>
+            <li>Received positive feedback from fellow colleagues, commending professional communication and quick resolution times.</li>
+            <li>Gained experience with Microsoft Azure.</li>
+            <li>Administrative role helped gain experience in creating and giving special user permissions.</li>
+           </ul>
+        </div>
+        <hr class="dashed">
+        <div>
+        <p class="job-title"><b>Computing Support Assistant | 1 Year</b><br>
+          <i>2022 – April 2023</i><br>
+          York University, Toronto, ON 
+        </p>
+          <ul class="job-desc">
+            <li>Extensive experience with ticketing software (HaloITSM), having created and resolved over a thousand tickets over the course of the year.</li>
+            <li>Found new technical issues and resolved them after multiple occurrences which helped me improve my analytical and problem-solving skills as well as the documentation of the issues.</li>
+            <li>Received positive feedback from clients and my manager for outstanding customer service.</li>
+            <li>Working as a team during stressful and tense situations such as network outages helped me refine my team-working ability.</li>
+            <li>Took the initiative when new employees were hired by training them and making use of my communication skills to convey information.</li>
+           </ul>
+      </div>   
+    </section>
+
+    <section id="education">
+      <hr class="solid">
+      <h1 class="title">Education</h1>
+      <hr class="solid">
+          <div style="padding: 2rem;">
+            <p>
+              <b>Specialized Honors Information Technology (E-Commerce Development) | 2021 - 2024 <br>
+              York University, Toronto, ON</b><br><br>
+              <ul>
+                <li>International Scholarship of Merit (2021)</li>
+                <li>Current GPA: 7.58/9.00 </li>
+              </ul>
+             
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <hr class="solid">
+      <h1 class="title">Contact Me</h1>
+      <hr class="solid">
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:derek.ahkf@gmail.com">Email</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/derekahaukaufong/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <button id="scrollToTopButton" onclick="scrollToTop()">Scroll to Top</button>
+
+
+    <footer>
+      <p>Copyright &#169; 2024 Derek Hau. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>
